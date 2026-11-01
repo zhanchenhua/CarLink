@@ -15,7 +15,7 @@
 [![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
 [![Android 7.1+](https://img.shields.io/badge/Android-7.1%2B%20(API%2025)-3DDC84?logo=android&logoColor=white)](#requirements)
 
-[**Download**](https://github.com/F-e-n-y-x/CarLink/releases/latest) ·
+[**汉化版下载**](https://share.feijipan.com/s/QpyZ3PSe) ·
 [Install](#install) · [User guide](docs/USER_GUIDE.md) ·
 [Troubleshooting](docs/TROUBLESHOOTING.md) · [Docs](docs/README.md)
 
