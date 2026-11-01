@@ -9,28 +9,28 @@
 <resources>
     <!-- DiPlay: CarPlayHostActivity -->
     <string name="diplay">CarLink</string>
-    <string name="back_to_diplay">Back to CarLink</string>
-    <string name="could_not_start_carplay_return_to_diplay_and_check_app_per">Could not start CarPlay. Return to CarLink and check app permissions.</string>
-    <string name="allow_nearby_devices_for_diplay_in_the_head_unit_s_app_per">Allow Nearby devices for CarLink in the head unit’s app permissions.</string>
-    <string name="allow_precise_location_for_diplay_in_the_head_unit_s_app_p">Allow precise Location for CarLink in the head unit’s app permissions.</string>
-    <string name="existing_wifi_instructions">Connect the car and iPhone to the same external Wi-Fi in system settings. Enter its exact name and WPA2 password below; leave the password empty only for an open network. Use WPA2 or WPA2/WPA3 mixed mode and disable client isolation on the router. CarLink keeps this Wi-Fi connection and creates no hotspot.</string>
-    <string name="open_diplay_settings_hint">During CarPlay, swipe down with %1$d fingers to open the CarPlay menu.</string>
-    <string name="carplay_settings">CarPlay menu</string>
-    <string name="side_panel_full_screen">Full screen</string>
-    <string name="setup_error_auth">CarPlay authentication files are missing from this build. Settings › Diagnostics explains what is needed.</string>
+    <string name="back_to_diplay">返回 CarLink</string>
+    <string name="could_not_start_carplay_return_to_diplay_and_check_app_per">无法启动 CarPlay，请返回 CarLink 检查应用权限。</string>
+    <string name="allow_nearby_devices_for_diplay_in_the_head_unit_s_app_per">在车机应用权限中为 CarLink 授予附近设备权限。</string>
+    <string name="allow_precise_location_for_diplay_in_the_head_unit_s_app_p">在车机应用权限中为 CarLink 授予精确位置权限。</string>
+    <string name="existing_wifi_instructions">在系统设置中将车辆和 iPhone 连接到同一个外部 Wi‑Fi。在下方输入准确的 Wi‑Fi 名称和 WPA2 密码；开放网络才留空密码。路由器请使用 WPA2 或 WPA2/WPA3 混合模式，并关闭客户端隔离。CarLink 仅保持该 Wi‑Fi 连接，不会创建热点。</string>
+    <string name="open_diplay_settings_hint">CarPlay 运行时，用 %1$d 根手指向下滑动打开 CarPlay 菜单。</string>
+    <string name="carplay_settings">CarPlay 菜单</string>
+    <string name="side_panel_full_screen">全屏</string>
+    <string name="setup_error_auth">当前版本缺少 CarPlay 认证文件。前往设置 › 诊断查看所需文件。</string>
     <!-- DiPlay: dashboard map and the accessibility service shown in system settings -->
-    <string name="cluster_waiting_for_map">CarLink · waiting for the CarPlay map</string>
-    <string name="wheel_key_service_label">CarLink wheel keys</string>
-    <string name="wheel_key_service_description">Lets CarLink use the chosen steering-wheel keys to zoom the CarPlay map on the dashboard and to move around CarPlay\'s screen. It only receives key presses and does not read the screen.</string>
+    <string name="cluster_waiting_for_map">CarLink · 等待 CarPlay 地图</string>
+    <string name="wheel_key_service_label">CarLink 方向盘按键</string>
+    <string name="wheel_key_service_description">允许 CarLink 使用选定的方向盘按键，控制仪表盘 CarPlay 地图缩放以及操控 CarPlay 界面。该服务仅接收按键信号，不会读取屏幕内容。</string>
 
     <!-- DiAuto: AapProjectionActivity's exit menu (two-finger swipe from the edge) and its one-time hint -->
     <string name="exit_dialog_title">Android Auto</string>
-    <string name="exit_dialog_stop">Disconnect</string>
-    <string name="exit_dialog_background">Move to background</string>
-    <string name="gesture_hint">Tip: swipe in from the left edge with two fingers to open the Android Auto menu.</string>
+    <string name="exit_dialog_stop">断开连接</string>
+    <string name="exit_dialog_background">后台运行</string>
+    <string name="gesture_hint">提示：双指从屏幕左侧向内滑动，打开 Android Auto 菜单。</string>
 
     <!-- DiAuto: AapService notifications -->
-    <string name="notification_service_running">Android Auto is ready</string>
-    <string name="boot_loop_paused_generic">This device restarted three times in a row shortly after CarLink started wireless Android Auto, so wireless was left off this time. USB still works. Open CarLink to turn it back on.</string>
-    <string name="boot_loop_paused_native_wifi_direct">This device restarted three times in a row shortly after CarLink started wireless Android Auto, so wireless was left off this time. On some head units the Wi-Fi chipset takes the whole system down when a phone joins a Wi-Fi Direct network. Try the car hotspot as the wireless method. USB still works.</string>
+    <string name="notification_service_running">Android Auto 已就绪</string>
+    <string name="boot_loop_paused_generic">该车机在 CarLink 启动无线 Android Auto 后短时间内连续重启三次，本次已禁用无线连接。USB 连接仍可用。打开 CarLink 可重新开启。</string>
+    <string name="boot_loop_paused_native_wifi_direct">该车机在 CarLink 启动无线 Android Auto 后短时间内连续重启三次，本次已禁用无线连接。部分车机的 Wi‑Fi 芯片在手机接入 Wi‑Fi直连网络时会导致整机重启。可尝试使用车机热点作为无线方案。USB 连接仍可用。</string>
 </resources>
