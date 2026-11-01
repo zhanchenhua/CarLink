@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- ===== Update dialog (ui/update/UpdateDialog.kt) ===== -->
-    <string name="carlink_update_available_title">Update available</string>
+    <string name="carlink_update_available_title">发现新版本</string>
     <!-- The new version, e.g. "CarLink 1.1.0". -->
     <string name="carlink_update_version">CarLink %1$s</string>
     <!-- The installed version, e.g. "You have 1.0.0". -->
-    <string name="carlink_update_installed">You have %1$s</string>
-    <string name="carlink_update_whats_new">What’s new</string>
-    <string name="carlink_update_no_notes">No release notes for this version.</string>
-    <string name="carlink_update_ignore">Ignore this version</string>
-    <string name="carlink_update_later">Later</string>
-    <string name="carlink_update_download">Download &amp; install</string>
+    <string name="carlink_update_installed">当前版本：%1$s</string>
+    <string name="carlink_update_whats_new">更新内容</string>
+    <string name="carlink_update_no_notes">该版本暂无更新说明。</string>
+    <string name="carlink_update_ignore">忽略此版本</string>
+    <string name="carlink_update_later">稍后</string>
+    <string name="carlink_update_download">下载并安装</string>
 
     <!-- e.g. "Downloading CarLink 1.1.0". -->
-    <string name="carlink_update_downloading_title">Downloading CarLink %1$s</string>
+    <string name="carlink_update_downloading_title">正在下载 CarLink %1$s</string>
     <!-- Downloaded so far and the total, e.g. "12.4 MB of 48.0 MB". -->
-    <string name="carlink_update_progress">%1$s of %2$s</string>
-    <string name="carlink_update_progress_unknown">%1$s downloaded</string>
-    <string name="carlink_update_download_body">You can keep using CarLink. Nothing is installed until the download has been checked.</string>
-    <string name="carlink_update_cancel">Cancel</string>
+    <string name="carlink_update_progress">已下载 %1$s / %2$s</string>
+    <string name="carlink_update_progress_unknown">已下载 %1$s</string>
+    <string name="carlink_update_download_body">你可以继续使用CarLink。校验完成后才会执行安装。</string>
+    <string name="carlink_update_cancel">取消</string>
 
-    <string name="carlink_update_verifying_title">Checking the download</string>
-    <string name="carlink_update_verifying_body">Making sure the file is complete and signed by CarLink.</string>
+    <string name="carlink_update_verifying_title">正在校验安装包</string>
+    <string name="carlink_update_verifying_body">校验文件完整性，确认为CarLink官方签名包。</string>
 
-    <string name="carlink_update_permission_title">Allow CarLink to install the update</string>
-    <string name="carlink_update_permission_body">Android needs your permission once. On the next screen, turn on “Allow from this source”, then come back to CarLink. The update continues by itself.</string>
-    <string name="carlink_update_open_settings">Open settings</string>
+    <string name="carlink_update_permission_title">允许CarLink安装更新</string>
+    <string name="carlink_update_permission_body">安卓需要一次授权。在下一页开启“允许来自此来源的应用”，然后返回CarLink，更新会自动继续。</string>
+    <string name="carlink_update_open_settings">打开设置</string>
 
     <!-- e.g. "Installing CarLink 1.1.0". -->
-    <string name="carlink_update_installing_title">Installing CarLink %1$s</string>
-    <string name="carlink_update_installing_body">Confirm on Android’s install screen. CarLink closes while it updates; open it again when it’s done.</string>
+    <string name="carlink_update_installing_title">正在安装 CarLink %1$s</string>
+    <string name="carlink_update_installing_body">请在安卓安装弹窗确认。更新期间CarLink会关闭，安装完成后重新打开即可。</string>
 
-    <string name="carlink_update_failed_title">Update not installed</string>
-    <string name="carlink_update_error_download">The download didn’t finish. Check the internet connection and try again.</string>
-    <string name="carlink_update_error_checksum_missing">This release has no checksum file, so the download can’t be checked. Try again later.</string>
-    <string name="carlink_update_error_checksum">The downloaded file doesn’t match its checksum, so it may be damaged. It was deleted.</string>
-    <string name="carlink_update_error_unreadable">The downloaded file isn’t a valid app. It was deleted.</string>
-    <string name="carlink_update_error_package">The downloaded file isn’t CarLink. It was deleted.</string>
-    <string name="carlink_update_error_not_newer">The downloaded file isn’t newer than the version you have. It was deleted.</string>
-    <string name="carlink_update_error_signer">The downloaded file isn’t signed with CarLink’s release key, so it wasn’t installed. It was deleted.</string>
-    <string name="carlink_update_error_install">Android didn’t install the update. Try again.</string>
+    <string name="carlink_update_failed_title">更新安装失败</string>
+    <string name="carlink_update_error_download">下载未完成，请检查网络后重试。</string>
+    <string name="carlink_update_error_checksum_missing">该版本缺少校验文件，无法校验安装包，请稍后重试。</string>
+    <string name="carlink_update_error_checksum">安装包校验值不匹配，文件可能已损坏，已删除。</string>
+    <string name="carlink_update_error_unreadable">下载的文件不是有效的应用安装包，已删除。</string>
+    <string name="carlink_update_error_package">下载文件并非CarLink安装包，已删除。</string>
+    <string name="carlink_update_error_not_newer">下载版本不比当前版本新，已删除。</string>
+    <string name="carlink_update_error_signer">安装包不是CarLink官方密钥签名，禁止安装，已删除。</string>
+    <string name="carlink_update_error_install">安卓系统安装失败，请重试。</string>
     <!-- Android's own reason, e.g. "INSTALL_FAILED_INSUFFICIENT_STORAGE". -->
-    <string name="carlink_update_error_install_detail">Android didn’t install the update (%1$s). Try again.</string>
-    <string name="carlink_update_error_install_cancelled">The installation was cancelled.</string>
-    <string name="carlink_update_try_again">Try again</string>
-    <string name="carlink_update_close">Close</string>
+    <string name="carlink_update_error_install_detail">安卓安装失败（%1$s），请重试。</string>
+    <string name="carlink_update_error_install_cancelled">安装已取消。</string>
+    <string name="carlink_update_try_again">重试</string>
+    <string name="carlink_update_close">关闭</string>
 
     <!-- ===== About › Updates ===== -->
-    <string name="carlink_about_updates">Updates</string>
-    <string name="carlink_about_check_updates">Check for updates</string>
+    <string name="carlink_about_updates">版本更新</string>
+    <string name="carlink_about_check_updates">检查更新</string>
     <!-- e.g. "Version 1.0.0 · last checked 2 hours ago". -->
-    <string name="carlink_about_updates_last_checked">Version %1$s · last checked %2$s</string>
-    <string name="carlink_about_updates_never">Version %1$s · not checked yet</string>
-    <string name="carlink_about_updates_checking">Checking…</string>
-    <string name="carlink_about_updates_just_now">just now</string>
-    <string name="carlink_about_updates_up_to_date">You’re up to date</string>
+    <string name="carlink_about_updates_last_checked">版本 %1$s · 上次检查：%2$s</string>
+    <string name="carlink_about_updates_never">版本 %1$s · 尚未检查更新</string>
+    <string name="carlink_about_updates_checking">正在检查…</string>
+    <string name="carlink_about_updates_just_now">刚刚</string>
+    <string name="carlink_about_updates_up_to_date">已是最新版本</string>
     <!-- e.g. "CarLink 1.1.0 is available". -->
-    <string name="carlink_about_updates_available">CarLink %1$s is available</string>
-    <string name="carlink_about_updates_failed">Couldn’t reach GitHub. Check the internet connection and try again.</string>
-    <string name="carlink_about_updates_rate_limited">GitHub is busy right now. Try again in a while.</string>
-    <string name="carlink_about_updates_unsupported">This build doesn’t update itself. Install the release from GitHub to get updates.</string>
-    <string name="carlink_about_auto_updates">Automatically check for updates</string>
-    <string name="carlink_about_auto_updates_body">Every 6 hours while CarLink is open and no phone is connected. Nothing downloads without asking.</string>
+    <string name="carlink_about_updates_available">CarLink %1$s 新版本可用</string>
+    <string name="carlink_about_updates_failed">无法连接GitHub，请检查网络后重试。</string>
+    <string name="carlink_about_updates_rate_limited">GitHub访问限流，请稍后再试。</string>
+    <string name="carlink_about_updates_unsupported">当前构建版本不支持自动更新，请从GitHub正式版安装包获取更新。</string>
+    <string name="carlink_about_auto_updates">自动检查更新</string>
+    <string name="carlink_about_auto_updates_body">CarLink打开且无手机连接时，每6小时检查一次；不会未经确认自动下载。</string>
 </resources>
